@@ -1,3 +1,6 @@
+# This is where I will section off my notes and examples for different aspects of the language
+# ------------------------------------------------#
+
 # variable = a container for a value. Behaves as the value that it contains
 
 # first_name = "Anthony"
@@ -162,3 +165,6 @@
 #elif not(temp < 0 or temp >30):
     #print("The temperature is bad today!")
     #print("stay inside!")
+
+# ------------------------------------------------#
+# (Not FInished)
