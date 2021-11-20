@@ -1,0 +1,14 @@
+You know what this 
+_________________________________________________________________________________________________________________________________________________________________________________________
+Basics:
+CAPITALIZATION MATTERS| CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|
+Use syntax "+=" to add onto a variable: Example_1 += Example_2
+Use hashtag to add comment: #Chicken is superior
+print "___" to say something,for variables print [insert variable name]
+to join while using print: print [example] + [example]
+Float is a number with a decimal
+Numbers will round when dividing unless you use float(example)
+use """ to combine multiple strings:
+address_string = """136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""
