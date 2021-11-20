@@ -1,14 +1,22 @@
 You know what this 
 _________________________________________________________________________________________________________________________________________________________________________________________
-Basics:
+SYNTAX:
 CAPITALIZATION MATTERS| CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|
+True and False must be capitalized
 Use syntax "+=" to add onto a variable: Example_1 += Example_2
 Use hashtag to add comment: #Chicken is superior
-print "___" to say something,for variables print [insert variable name]
+print "___" to say something,for varia` es print [insert variable name]
+to print variables use print str() (this turns arithmetic into string)
+to turn string into arthmitic: int()
 to join while using print: print [example] + [example]
-Float is a number with a decimal
+Float: 7.
+Integer: 7
+String:"7"
 Numbers will round when dividing unless you use float(example)
 use """ to combine multiple strings:
 address_string = """136 Whowho Rd
 Apt 7
 Whosville, WZ 44494"""
+use \ when using apostrophies
+alwasy count from 0\
+example of indexs c = "cats"[0]0]
