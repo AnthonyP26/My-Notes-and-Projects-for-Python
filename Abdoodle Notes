@@ -6,7 +6,6 @@ True and False must be capitalized
 Use syntax "+=" to add onto a variable: Example_1 += Example_2
 Use hashtag to add comment: #Chicken is superior
 print "___" to say something,for varia` es print [insert variable name]
-to print variables use print str() (this turns arithmetic into string)
 to turn string into arthmitic: int()
 to join while using print: print [example] + [example]
 Float: 7.
@@ -20,3 +19,9 @@ Whosville, WZ 44494"""
 use \ when using apostrophies
 alwasy count from 0\
 example of indexs c = "cats"[0]
+to print variables use print str() (this turns arithmetic into string)
+Len() gets you the character length of what you type
+lower() lower cases all capitalization ex:"Ryan".lower()
+upper() Upper case all characters ex: "ryan" .upper()
+how to use % in strings:print "Hello %s" % (name)(if you want to use % for a variable use %02d instead of %s)
+THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
