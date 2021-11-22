@@ -1,0 +1,229 @@
+place_1= 1
+place_2=2
+place_3=3
+place_4=4
+place_5=5
+place_6=6
+place_7=7
+place_8=8
+place_9=9
+X_placement = 0
+O_placement = 0
+#Every thing above should reset tictactoe
+print(str(place_1)+'|'+str(place_2)+'|'+str(place_3))
+print("-----")
+print(str(place_4)+'|'+str(place_5)+'|'+str(place_6))
+print("-----")
+print(str(place_7)+'|'+str(place_8)+'|'+str(place_9))
+X_placement = input("X,Input where you want to place ")
+if X_placement == "1":
+    place_1 = "X"
+elif X_placement == "2":
+    place_2 = "X"
+elif X_placement == "3":
+    place_3 = "X"
+elif X_placement == "4":
+    place_4 = "X"
+elif X_placement == "5":
+    place_5 = "X"
+elif X_placement == "6":
+    place_6 = "X"
+elif X_placement == "7":
+    place_7 = "X"
+elif X_placement == "8":
+    place_8 = "X"
+else:
+    place_9 = "X"
+# main source above this comment
+print(str(place_1) + '|' + str(place_2) + '|' + str(place_3))
+print("-----")
+print(str(place_4) + '|' + str(place_5) + '|' + str(place_6))
+print("-----")
+print(str(place_7) + '|' + str(place_8) + '|' + str(place_9))
+O_placement = input("O,Input where you want to place ")
+if O_placement == "1":
+    place_1 = "O"
+elif O_placement == "2":
+    place_2 = "O"
+elif O_placement == "3":
+    place_3 = "O"
+elif O_placement == "4":
+    place_4 = "O"
+elif O_placement == "5":
+    place_5 = "O"
+elif O_placement == "6":
+    place_6 = "O"
+elif O_placement == "7":
+    place_7 = "O"
+elif O_placement == "8":
+    place_8 = "O"
+else:
+    place_9 = "O"
+print(str(place_1)+'|'+str(place_2)+'|'+str(place_3))
+print("-----")
+print(str(place_4)+'|'+str(place_5)+'|'+str(place_6))
+print("-----")
+print(str(place_7)+'|'+str(place_8)+'|'+str(place_9))
+X_placement = input("X,Input where you want to place ")
+if X_placement == "1":
+    place_1 = "X"
+elif X_placement == "2":
+    place_2 = "X"
+elif X_placement == "3":
+    place_3 = "X"
+elif X_placement == "4":
+    place_4 = "X"
+elif X_placement == "5":
+    place_5 = "X"
+elif X_placement == "6":
+    place_6 = "X"
+elif X_placement == "7":
+    place_7 = "X"
+elif X_placement == "8":
+    place_8 = "X"
+else:
+    place_9 = "X"
+print(str(place_1) + '|' + str(place_2) + '|' + str(place_3))
+print("-----")
+print(str(place_4) + '|' + str(place_5) + '|' + str(place_6))
+print("-----")
+print(str(place_7) + '|' + str(place_8) + '|' + str(place_9))
+O_placement = input("O,Input where you want to place ")
+if O_placement == "1":
+    place_1 = "O"
+elif O_placement == "2":
+    place_2 = "O"
+elif O_placement == "3":
+    place_3 = "O"
+elif O_placement == "4":
+    place_4 = "O"
+elif O_placement == "5":
+    place_5 = "O"
+elif O_placement == "6":
+    place_6 = "O"
+elif O_placement == "7":
+    place_7 = "O"
+elif O_placement == "8":
+    place_8 = "O"
+else:
+    place_9 = "O"
+print(str(place_1)+'|'+str(place_2)+'|'+str(place_3))
+print("-----")
+print(str(place_4)+'|'+str(place_5)+'|'+str(place_6))
+print("-----")
+print(str(place_7)+'|'+str(place_8)+'|'+str(place_9))
+X_placement = input("X,Input where you want to place ")
+if X_placement == "1":
+    place_1 = "X"
+elif X_placement == "2":
+    place_2 = "X"
+elif X_placement == "3":
+    place_3 = "X"
+elif X_placement == "4":
+    place_4 = "X"
+elif X_placement == "5":
+    place_5 = "X"
+elif X_placement == "6":
+    place_6 = "X"
+elif X_placement == "7":
+    place_7 = "X"
+elif X_placement == "8":
+    place_8 = "X"
+else:
+    place_9 = "X"
+print(str(place_1) + '|' + str(place_2) + '|' + str(place_3))
+print("-----")
+print(str(place_4) + '|' + str(place_5) + '|' + str(place_6))
+print("-----")
+print(str(place_7) + '|' + str(place_8) + '|' + str(place_9))
+O_placement = input("O,Input where you want to place ")
+if O_placement == "1":
+    place_1 = "O"
+elif O_placement == "2":
+    place_2 = "O"
+elif O_placement == "3":
+    place_3 = "O"
+elif O_placement == "4":
+    place_4 = "O"
+elif O_placement == "5":
+    place_5 = "O"
+elif O_placement == "6":
+    place_6 = "O"
+elif O_placement == "7":
+    place_7 = "O"
+elif O_placement == "8":
+    place_8 = "O"
+else:
+    place_9 = "O"
+print(str(place_1)+'|'+str(place_2)+'|'+str(place_3))
+print("-----")
+print(str(place_4)+'|'+str(place_5)+'|'+str(place_6))
+print("-----")
+print(str(place_7)+'|'+str(place_8)+'|'+str(place_9))
+X_placement = input("X,Input where you want to place ")
+if X_placement == "1":
+    place_1 = "X"
+elif X_placement == "2":
+    place_2 = "X"
+elif X_placement == "3":
+    place_3 = "X"
+elif X_placement == "4":
+    place_4 = "X"
+elif X_placement == "5":
+    place_5 = "X"
+elif X_placement == "6":
+    place_6 = "X"
+elif X_placement == "7":
+    place_7 = "X"
+elif X_placement == "8":
+    place_8 = "X"
+else:
+    place_9 = "X"
+print(str(place_1) + '|' + str(place_2) + '|' + str(place_3))
+print("-----")
+print(str(place_4) + '|' + str(place_5) + '|' + str(place_6))
+print("-----")
+print(str(place_7) + '|' + str(place_8) + '|' + str(place_9))
+O_placement = input("O,Input where you want to place ")
+if O_placement == "1":
+    place_1 = "O"
+elif O_placement == "2":
+    place_2 = "O"
+elif O_placement == "3":
+    place_3 = "O"
+elif O_placement == "4":
+    place_4 = "O"
+elif O_placement == "5":
+    place_5 = "O"
+elif O_placement == "6":
+    place_6 = "O"
+elif O_placement == "7":
+    place_7 = "O"
+elif O_placement == "8":
+    place_8 = "O"
+else:
+    place_9 = "O"
+print(str(place_1)+'|'+str(place_2)+'|'+str(place_3))
+print("-----")
+print(str(place_4)+'|'+str(place_5)+'|'+str(place_6))
+print("-----")
+print(str(place_7)+'|'+str(place_8)+'|'+str(place_9))
+X_placement = input("X,Input where you want to place ")
+if X_placement == "1":
+    place_1 = "X"
+elif X_placement == "2":
+    place_2 = "X"
+elif X_placement == "3":
+    place_3 = "X"
+elif X_placement == "4":
+    place_4 = "X"
+elif X_placement == "5":
+    place_5 = "X"
+elif X_placement == "6":
+    place_6 = "X"
+elif X_placement == "7":
+    place_7 = "X"
+elif X_placement == "8":
+    place_8 = "X"
+else:
+    place_9 = "X"
