@@ -1,7 +1,7 @@
 You know what this 
-_________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________
 SYNTAX:
-CAPITALIZATION MATTERS| CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|
+CAPITALIZATION MATTERS| CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|
 Use syntax "+=" to add onto a variable: Example_1 += Example_2
 Use hashtag to add comment: #Chicken is superior
 print "___" to say something,for varia` es print [insert variable name]
@@ -25,6 +25,8 @@ upper() Upper case all characters ex: "ryan" .upper()
 how to use % in strings:print "Hello %s" % (name)(if you want to use % for a variable use %02d instead of %s)
 THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
 
+User input:
+input() is how to set a user input set to a variable
 Boolean:
 True and False must capitalized(yes, I know i contradict myself dont worry about and I dont care if it was easier to capitalize True and False)
 set_to_true = True
@@ -32,9 +34,32 @@ set_to_false = False
 True examples:
 1==1
 2!=1
+not False == True
+not 7 < 0       # True
 False examples:
 3==5
 "7"==7
 3!=3
----------
-type(my_baby_bool)
+not True == False
+not 1 + 1 == 2  # False
+--------------
+how to use 
+and,or,use Ex:(1 + 1 == 2) and(2+2==4)
+
+If statement:
+Example: 
+if 2 == 4 - 2: 
+  print("apple")
+if age <= 13:
+  print("your not old enough")
+ ------------
+use ==,<=,>=,<,>
+make sure to indent when using if statements and use this :
+
+Else statements:
+if weekday:
+  print("wake up at 6:30")
+else:
+  print("sleep in")
+-----------
+
