@@ -2,7 +2,6 @@ You know what this
 _________________________________________________________________________________________________________________________________________________________________________________________
 SYNTAX:
 CAPITALIZATION MATTERS| CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|CAPITALIZATION MATTERS|
-True and False must be capitalized
 Use syntax "+=" to add onto a variable: Example_1 += Example_2
 Use hashtag to add comment: #Chicken is superior
 print "___" to say something,for varia` es print [insert variable name]
@@ -28,3 +27,14 @@ THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
 
 Boolean:
 True and False must capitalized(yes, I know i contradict myself dont worry about and I dont care if it was easier to capitalize True and False)
+set_to_true = True
+set_to_false = False
+True examples:
+1==1
+2!=1
+False examples:
+3==5
+"7"==7
+3!=3
+---------
+type(my_baby_bool)
