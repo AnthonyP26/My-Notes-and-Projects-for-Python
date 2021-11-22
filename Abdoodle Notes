@@ -25,3 +25,6 @@ lower() lower cases all capitalization ex:"Ryan".lower()
 upper() Upper case all characters ex: "ryan" .upper()
 how to use % in strings:print "Hello %s" % (name)(if you want to use % for a variable use %02d instead of %s)
 THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
+
+Boolean:
+True and False must capitalized(yes, I know i contradict myself dont worry about and I dont care if it was easier to capitalize True and False)
