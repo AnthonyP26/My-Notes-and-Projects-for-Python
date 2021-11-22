@@ -62,6 +62,8 @@ make sure to indent when using if statements and use this :
 Else statements:
 if weekday:
   print("wake up at 6:30")
+elif sunday:
+  print("wake up at 9:00")
 else:
   print("sleep in")
 -----------
