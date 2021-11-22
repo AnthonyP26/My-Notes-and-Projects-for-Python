@@ -26,7 +26,10 @@ how to use % in strings:print "Hello %s" % (name)(if you want to use % for a var
 THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
 
 User input:
-input() is how to set a user input set to a variable
+input() is how to set a user input set to a variable EX:
+likes_snakes = input("Do you like snakes? ")
+-------
+
 Boolean:
 True and False must capitalized(yes, I know i contradict myself dont worry about and I dont care if it was easier to capitalize True and False)
 set_to_true = True
