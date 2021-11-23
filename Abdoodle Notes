@@ -68,3 +68,7 @@ else:
   print("sleep in")
 -----------
 
+Random number generator:
+To bring this function into use you must use: import random
+After this use this code: Example_number_generator = random.randint(Range minimum, Range Maximum)
+
