@@ -71,4 +71,13 @@ else:
 Random number generator:
 To bring this function into use you must use: import random
 After this use this code: Example_number_generator = random.randint(Range minimum, Range Maximum)
+---
 
+Lists:
+You can use integers and strings in a list
+Example: heights = [61, 70, 67, 64,"lists"]
+append always you to add thing to your list, ex:
+append_example.append('list')
+
+Math import:
+Use "import math" to import math functions 
