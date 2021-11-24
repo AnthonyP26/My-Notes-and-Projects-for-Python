@@ -79,8 +79,16 @@ Example: heights = [61, 70, 67, 64,"lists"]
 append always you to add thing to your list, ex:
 append_example.append('list')
 To use strings or variables in list use (list name)[1] Ex:
-print(calls[2])
+print(example_list[2])
 -------
+to remove from list use .remove() Ex: example_list.remove("chicken")
+Two-dimensional lists examples:
+tic_tac_toe = [
+            [["X"],["O"],["X"]], 
+            [["O"],["X"],["O"]], 
+            [["O"],["O"],["X"]]
+]
+
 Python counting starts at 0
 To modify a list use Ex: Example[2] = "chicken"
 
