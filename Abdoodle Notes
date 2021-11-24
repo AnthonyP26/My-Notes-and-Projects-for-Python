@@ -91,6 +91,24 @@ tic_tac_toe = [
 
 Python counting starts at 0
 To modify a list use Ex: Example[2] = "chicken"
+How to access 2d lists:
+example_list = [[1,2],[3,4]
+---
+Accessing_2 = example_list [0] [1]
+---
+To modify 2d list: class_name_hobbies[0][1] = "Meditation"
+---
+how to use insert:  store_line.insert(2, "Vikor")#the output will be below
+.['Karla', 'Maxium', 'Vikor', 'Martim', 'Isabella']
+----
+how to use pop: removed_element = cs_topics.pop()
+-----
+how to use range: my_range = range(2,10)
+this will create a range of numbers without having to type it all in one
+to skip numbers use: my_range = range(2,10,2), the last number is the number it will skip by
+---
+use len() to find
+(Yes we are still going on about shitty ass lists that make you want to kill yourself
 
 Math import:
 Use "import math" to import math functions 
