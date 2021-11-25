@@ -200,7 +200,18 @@ print("End of search!")
 the break code stops the loop from going on infinitely
 
 Using continue in loops:
-
+for i in big_number_list:
+  if i <= 0:
+    continue
+  print(i)
+----
+secondary ex:
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+for age in ages:
+  if age < 21:
+    continue
+  print(age)
+----------
 
 
   
