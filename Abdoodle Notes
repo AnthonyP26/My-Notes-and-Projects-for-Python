@@ -275,3 +275,5 @@ doubled = [num * 2 if num < 0 else num * 3 for num in numbers ]
 print(doubled)
 -----
   
+Functions:
+Defining Functions
