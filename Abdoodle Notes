@@ -135,11 +135,11 @@ ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
 for ingredient in ingredients:
   print(ingredient)
 In this example:
-
 ingredient is the <temporary variable>.
 ingredients is our <collection>.
 print(ingredient) was the <action> performed on every iteration using the temporary variable of ingredient.
 -------------
+
 using range in loops:
 for <temporary variable> in <list of length >:
   print("Learning Loops!")
@@ -155,6 +155,7 @@ Learning Loops!
 Learning Loops!
 Learning Loops!
 ----
+
 how to keep track of iterations:
 for temp in range(6):
   print("Loop is on iteration number " + str(temp + 1))
@@ -169,3 +170,36 @@ while count <= 3:
   # Loop Body
   print(count)
   count += 1
+-----
+
+While Loops with lists:
+length = len(ingredients)
+index = 0
+---
+
+Infinite loops:
+my_favorite_numbers = [4, 8, 15, 16, 42]
+ 
+for number in my_favorite_numbers:
+  my_favorite_numbers.append(1)
+----
+the fact that a new number is being added every time the loop is turned on will cause this code to go on infintely
+
+Using break in loops:
+items_on_sale = ["blue shirt", "striped socks", "knit dress", "red headband", "dinosaur onesie"]
+ 
+print("Checking the sale list!")
+ 
+for item in items_on_sale:
+  print(item)
+  if item == "knit dress":
+    break
+ 
+print("End of search!")
+------
+the break code stops the loop from going on infinitely
+
+
+
+
+  
