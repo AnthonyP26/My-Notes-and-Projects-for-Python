@@ -213,5 +213,59 @@ for age in ages:
   print(age)
 ----------
 
+Nested Loops:
+# Loop through each sublist
+for team in project_teams:
+  # Loop elements in each sublist
+  for student in team:
+    print(student)
+-------
+secondary ex:
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0
+
+for location in sales_data:
+  print(location)
+  for element in location:
+    scoops_sold += element
+    
+print(scoops_sold)
+print out: 
+[12, 17, 22]
+[2, 10, 3]
+[5, 12, 13]
+96
+-----
+List changes:
+numbers = [2, -1, 79, 33, -45]
+doubled = []
+ 
+for number in numbers:
+  doubled.append(number * 2)
+ 
+print(doubled)
+print output: [4, -2, 158, 66, -90]
+------
+same idea different way of doing it:
+numbers = [2, -1, 79, 33, -45]
+doubled = [num * 2 for num in numbers]
+print(doubled)
+-----
+
+Conditionals in loops:
+numbers = [2, -1, 79, 33, -45]
+only_negative_doubled = []
+ 
+for num in numbers:
+  if num < 0: 
+    only_negative_doubled.append(num * 2)
+ 
+print(only_negative_doubled) 
+-----
+2nd example:
+numbers = [2, -1, 79, 33, -45]
+negative_doubled = [num * 2 for num in numbers if num < 0]
+print(negative_doubled)
 
   
