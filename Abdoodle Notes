@@ -119,3 +119,24 @@ Use .count()to find how much of something there is
 
 Math import:
 Use "import math" to import math functions 
+
+Loops:
+for indicates the start of a loop
+<temporary variable> helps determine the value of the element
+<collection> what is being looped
+<action> what the loop while be doing
+Loops ex:
+for <temporary variable> in <collection>:
+  <action>
+-------
+secondary ex:
+ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
+ 
+for ingredient in ingredients:
+  print(ingredient)
+In this example:
+
+ingredient is the <temporary variable>.
+ingredients is our <collection>.
+print(ingredient) was the <action> performed on every iteration using the temporary variable of ingredient.
+
