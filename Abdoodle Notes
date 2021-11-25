@@ -212,6 +212,7 @@ for age in ages:
     continue
   print(age)
 ----------
+Continue cause the loop to rest
 
 Nested Loops:
 # Loop through each sublist
