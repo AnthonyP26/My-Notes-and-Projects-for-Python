@@ -139,4 +139,33 @@ In this example:
 ingredient is the <temporary variable>.
 ingredients is our <collection>.
 print(ingredient) was the <action> performed on every iteration using the temporary variable of ingredient.
-
+-------------
+using range in loops:
+for <temporary variable> in <list of length >:
+  print("Learning Loops!")
+ ---------------
+ secondary ex:
+ for temp in range(6):
+  print("Learning Loops!")
+Would output:
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+----
+how to keep track of iterations:
+for temp in range(6):
+  print("Loop is on iteration number " + str(temp + 1))
+--------
+While loops:
+while <conditional statement>:
+  <action>
+-------
+secondary example:
+count = 0
+while count <= 3:
+  # Loop Body
+  print(count)
+  count += 1
