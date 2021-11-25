@@ -107,8 +107,15 @@ how to use range: my_range = range(2,10)
 this will create a range of numbers without having to type it all in one
 to skip numbers use: my_range = range(2,10,2), the last number is the number it will skip by
 ---
-use len() to find
-(Yes we are still going on about shitty ass lists that make you want to kill yourself
+use len() to find the length of your list
+---
+Slicing lists: example_list[start:end]
+WHEN SPLICING LISTS MAKE SURE TO USE :
+---
+Use .count()to find how much of something there is
+---
+.sort() 
+(Yes we are still going on about shitty ass lists that make you want to kill yourself)
 
 Math import:
 Use "import math" to import math functions 
