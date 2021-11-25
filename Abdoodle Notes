@@ -199,6 +199,7 @@ print("End of search!")
 ------
 the break code stops the loop from going on infinitely
 
+Using continue in loops:
 
 
 
