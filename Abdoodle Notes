@@ -276,4 +276,6 @@ print(doubled)
 -----
   
 Functions:
-Defining Functions
+Defining Functions uses def
+an example of a function is:
+def function_name():
