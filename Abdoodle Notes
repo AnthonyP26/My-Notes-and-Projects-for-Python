@@ -107,6 +107,11 @@ how to use pop: removed_element = cs_topics.pop()
 how to use range: my_range = range(2,10)
 this will create a range of numbers without having to type it all in one
 to skip numbers use: my_range = range(2,10,2), the last number is the number it will skip by
+(Yes we are still going on about shitty ass lists that make you want to kill yourself)
+I dont know what this is called but useful to know 
+def every_three_nums(start):
+  return list(range(start,101,3))
+print(every_three_nums(91))
 ---
 use len() to find the length of your list
 ---
@@ -115,7 +120,7 @@ WHEN SPLICING LISTS MAKE SURE TO USE :
 ---
 Use .count()to find how much of something there is
 ---
-.sort() 
+use sorted() to sort
 (Yes we are still going on about shitty ass lists that make you want to kill yourself)
 
 Math import:
@@ -132,7 +137,7 @@ for <temporary variable> in <collection>:
 -------
 secondary ex:
 ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
- 
+
 for ingredient in ingredients:
   print(ingredient)
 In this example:
@@ -140,6 +145,16 @@ ingredient is the <temporary variable>.
 ingredients is our <collection>.
 print(ingredient) was the <action> performed on every iteration using the temporary variable of ingredient.
 -------------
+3rd example:(here the objective is to count how many numbers are divisble by 10)
+def divisible_by_ten(nums):
+  count = 0
+  for numbers in nums:
+    if numbers % 10 == 0:
+      count += 1
+  return count
+
+print(divisible_by_ten([20, 25, 30, 35, 40]))
+
 
 using range in loops:
 for <temporary variable> in <list of length >:
