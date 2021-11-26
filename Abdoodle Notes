@@ -7,6 +7,14 @@ Use hashtag to add comment: #Chicken is superior
 print "___" to say something,for varia` es print [insert variable name]
 to turn string into arthmitic: int()
 to join while using print: print [example] + [example]
+how to slice strings:
+str = 'yellow'
+str[1]     # => 'e'
+str[-1]    # => 'w'
+str[4:6]   # => 'ow'
+str[:4]    # => 'yell'
+str[-3:]   # => 'low'
+----
 Float: 7.
 Integer: 7
 String:"7"
@@ -25,6 +33,9 @@ upper() Upper case all characters ex: "ryan" .upper()
 how to use % in strings:print "Hello %s" % (name)(if you want to use % for a variable use %02d instead of %s)
 THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE: (name, chicken)
 to use the letter in a word look at this example: ex_variable[1] = first_letter ( this will use the first letter in a string that ex_variable is = to)
+Here is what the syntax of in looks like:
+letter in word
+How to use ": password = "theycallme\"crazy\"91"
 
 User input:
 input() is how to set a user input set to a variable EX:
@@ -116,7 +127,7 @@ print(every_three_nums(91))
 use len() to find the length of your list
 ---
 Slicing lists: example_list[start:end]
-WHEN SPLICING LISTS MAKE SURE TO USE :
+WHEN SLICING LISTS MAKE SURE TO USE :
 ---
 Use .count()to find how much of something there is
 ---
