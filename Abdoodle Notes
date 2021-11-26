@@ -268,16 +268,31 @@ print(only_negative_doubled)
 numbers = [2, -1, 79, 33, -45]
 negative_doubled = [num * 2 for num in numbers if num < 0]
 print(negative_doubled)
------
+---------
 3rd example:
 numbers = [2, -1, 79, 33, -45]
 doubled = [num * 2 if num < 0 else num * 3 for num in numbers ]
 print(doubled)
------
+---------
   
 Functions:
 Defining Functions uses def
 an example of a function is:
 def function_name():
-------
+--------
 to call a function use the function_name()
+
+Parameters & Agruements:
+def my_function(single_parameter)
+to use multiple parameters ex: def my_function(1_parameter,2_parameter,3_parameter) 
+Positional arguments: arguments that can be called by their position in the function definition.
+calculate_taxi_price(100, 10, 5)
+---------
+Keyword arguments: arguments that can be called by their name.
+calculate_taxi_price(rate=0.5, discount=10, miles_to_travel=100)
+------
+Default arguments: arguments that are given default values.
+calculate_taxi_price(10, 0.5, 20)
+---------
+
+
