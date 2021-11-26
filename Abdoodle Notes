@@ -23,7 +23,8 @@ Len() gets you the character length of what you type
 lower() lower cases all capitalization ex:"Ryan".lower()
 upper() Upper case all characters ex: "ryan" .upper()
 how to use % in strings:print "Hello %s" % (name)(if you want to use % for a variable use %02d instead of %s)
-THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE ABOVE EX: (name, chicken)
+THE ONLY CASE YOU CAN USE , IS IN THE EXAMPLE: (name, chicken)
+to use the letter in a word look at this example: ex_variable[1] = first_letter ( this will use the first letter in a string that ex_variable is = to)
 
 User input:
 input() is how to set a user input set to a variable EX:
@@ -288,11 +289,39 @@ to use multiple parameters ex: def my_function(1_parameter,2_parameter,3_paramet
 Positional arguments: arguments that can be called by their position in the function definition.
 calculate_taxi_price(100, 10, 5)
 ---------
+
 Keyword arguments: arguments that can be called by their name.
 calculate_taxi_price(rate=0.5, discount=10, miles_to_travel=100)
 ------
+
 Default arguments: arguments that are given default values.
 calculate_taxi_price(10, 0.5, 20)
 ---------
+
+Difference between Built-in functions and Defined functions:
+built in functions are functions that are built into python an EX.:
+destination_name = "Venkatanarasimharajuvaripeta"
+# Built-in function: len()
+length_of_destination = len(destination_name)
+# Built-in function: print()
+print(length_of_destination)
+---------
+another example would be the function max() that will select the variable that is largest and vice versa with min()
+round() rounds a integer, how to use it: 
+rounded_number = round(10.2233,1), the result of this would be round_number 10
+--------
+to use variables in functions we use the return command:
+def deduct_expense(budget,expense):
+  return budget-expense (to do multiple returns use a comma after the first retun)
+how to redefine variables after a return:
+def top_tourist_locations_italy():
+  first = "Rome"
+  second = "Venice"
+  third = "Florence"
+  return first, second, third 
+# first, second, and third are the variables being changed
+most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
+
+
 
 
