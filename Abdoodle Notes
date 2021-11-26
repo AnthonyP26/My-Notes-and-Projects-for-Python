@@ -279,3 +279,5 @@ Functions:
 Defining Functions uses def
 an example of a function is:
 def function_name():
+------
+to call a function use the function_name()
