@@ -1,3 +1,15 @@
 To make comments use /* and make sure to enclose it with */ or //
+
+Writing:
+to write on the console use Console.Writeline(ex_string)
+
+
 User input:
 a simple command is {input}
+
+
+Creating Variables:
+to declare a value to a variable use 
+int myAge;
+myAge = 32;
+or use string countryname = "netherlands;
