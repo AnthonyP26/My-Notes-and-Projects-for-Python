@@ -13,3 +13,10 @@ to declare a value to a variable use
 int myAge;
 myAge = 32;
 or use string countryname = "netherlands;
+sybte can be between -128 to 127,short can be between -32767 to 32767, int -2,147,483,648 to 2,147,483,647, long is anything above
+float has 7 digit precision when describing float use an f example: float x = 99.99f:
+double has 15 digit precision use decimal as normal example: double x = 1.5;
+decimal has 28 digit precision example: decimal x = 1.5;
+bool (true or false)
+char single letter: char letter = 'A';
+string username = "Jason1995";
