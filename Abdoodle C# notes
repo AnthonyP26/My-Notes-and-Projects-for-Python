@@ -1,3 +1,4 @@
+CAPITALIZATION MATTERS
 To make comments use /* and make sure to enclose it with */ or //
 
 Writing:
@@ -20,3 +21,6 @@ decimal has 28 digit precision example: decimal x = 1.5;
 bool (true or false)
 char single letter: char letter = 'A';
 string username = "Jason1995";
+to upper case a whole string use (Stringname).ToUpper();
+to lower case a whole string use (stringname).ToLower();
+to combine strings use stringcombination = "turtle" + stringexample
