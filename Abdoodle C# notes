@@ -4,10 +4,11 @@ To make comments use /* and make sure to enclose it with */ or //
 Writing:
 to write on the console use Console.Writeline(ex_string)
 
+Vocabulary:
+ASCII value: still have yet to find out
 
 User input:
 a simple command is {input}
-
 
 Creating Variables:
 to declare a value to a variable use 
@@ -21,6 +22,11 @@ decimal has 28 digit precision example: decimal x = 1.5;
 bool (true or false)
 char single letter: char letter = 'A';
 string username = "Jason1995";
+
+Basic Console Methods:
 to upper case a whole string use (Stringname).ToUpper();
 to lower case a whole string use (stringname).ToLower();
 to combine strings use stringcombination = "turtle" + stringexample
+Console.Write("text here"); keeps the cursor on the same line
+Console.Write line("text here"); puts the text in the next line
+Console.read(); takes a single input of type string and it returns the ASCII value of that input
