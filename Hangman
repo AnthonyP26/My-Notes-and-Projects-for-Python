@@ -1,0 +1,40 @@
+# time to complete about 30 minutes
+import random
+words = ["apple", "orange","kiwi","lemon","mango","pineapple","peach","watermelon"]
+randomSelect = random.randint(0,7)
+selectedWord = words[randomSelect]
+hangManWord = []
+gameState = True
+while gameState == True:
+  Continue = input("Want to play? Type y or n. ")
+  if Continue == "n":
+    gameState = False
+    break
+  guesses = 5
+  for letter in selectedWord:
+    hangManWord.append(letter)
+  guessWord = []
+  for index in hangManWord:
+    guessWord.append("_")
+  while guesses != 0:
+    print(*guessWord)
+    print(f"Guesses left: {guesses}")
+    print()
+    characterGuessed = input("What letter? ")
+    for letter in hangManWord:
+      if characterGuessed == letter:
+        index = hangManWord.index(letter)
+        guessWord[index] = letter
+        rightCharacter = True
+        break
+      else:
+        rightCharacter = False
+    if rightCharacter == True:
+      print("You got one! ")
+      if guessWord == hangManWord:
+        break
+    else:
+      print("Your guess was wrong! ")
+      guesses = guesses - 1
+  if guesses == 0:
+    print("You lost! ")
