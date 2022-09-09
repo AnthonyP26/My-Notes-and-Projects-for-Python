@@ -1,5 +1,5 @@
 import random
-
+from re import I
 winner  = False
 
 wordList = ["accident", "baseball", "cucumber", "broccoli", "keyboard", "recorder", "goldfish", "reindeer"]
@@ -13,27 +13,24 @@ def turnFunc():
     global winner
     global wrongAnswers
     print(word)
-
     
-    while wrongAnswers != 56 and winner == False:
-        hangMan()
+    while winner == False:
+        print(wrongAnswers)
+        if 40 == wrongAnswers:
+            hangMan5()
+        elif 32 == wrongAnswers:
+            hangMan4()
+        elif 24 == wrongAnswers:
+            hangMan3()
+        elif 16 == wrongAnswers:
+            hangMan2()
+        elif 8 == wrongAnswers:
+            hangMan1()
+        else:
+            hangMan()
 
-        #if wrongAnswers == 0:
-            #hangMan()
-        #elif wrongAnswers == 8:
-        #    hangMan1()
-        #elif wrongAnswers == 16:
-        #    hangMan2()
-        #elif wrongAnswers == 24:
-        #    hangMan3()
-        #elif wrongAnswers == 32:
-        #    hangMan4()
-        #elif wrongAnswers == 40:
-        #    hangMan5()
-        #elif wrongAnswers == 48:
-            #hangMan6()
-        
-        if wrongAnswers == 40:
+        if wrongAnswers == 48:
+            hangMan6()
             print("You Died")
             break
         elif letterList[0:8] == word[0:8]:
@@ -45,10 +42,9 @@ def turnFunc():
         for i in range(len(word)):
             if inp == word[i]:
                 letterList[i] = inp
-                continue
-            else:
-                wrongAnswers += 1
-                continue
+        if inp not in word:
+            wrongAnswers += 8
+            
 
 def hangMan():
     print(" ______________________")
