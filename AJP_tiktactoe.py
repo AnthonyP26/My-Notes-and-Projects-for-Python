@@ -1,75 +1,55 @@
-tiles = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-tiles_str = ("1", "2", "3", "4", "5", "6", "7", "8", "9")
+import sys
+56
+boardSet = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 
-global turn_count
-turn_count = 0
+def board(boardSet):
+  print(boardSet[0], " | ",boardSet[1], " | ",boardSet[2])
+  print("--------------")
+  print(boardSet[3], " | ",boardSet[4], " | ",boardSet[5])
+  print("--------------")
+  print(boardSet[6], " | ",boardSet[7], " | ",boardSet[8])
 
 
-def board():
-  divider = "-----"
-  play_board = str(tiles[0]) + "|" + str(tiles[1]) + "|" + str(tiles[2])
-  play_board_1 = str(tiles[3]) + "|" + str(tiles[4]) + "|" + str(tiles[5])
-  play_board_2 = str(tiles[6]) + "|" + str(tiles[7]) + "|" + str(tiles[8])
+def turn(boardSet):
   
-  print(play_board)
-  print(divider)
-  print(play_board_1)
-  print(divider)
-  print(play_board_2)
+  player = ["X", "O", "X", "O", "X", "O", "X", "O", "X"]
+  for i in range(len(player)):
+    board(boardSet)
 
-while True:
+    while True:
+      
+      turn = input("Take Your Turn "+ player[i] +" : ")
+      if int(turn) in boardSet:
+        boardSet[int(turn)] = player[i]
 
-  def Turn_X():
-    board()
-    x_turn = input("X take your turn: ")
-    if x_turn in tiles_str:
-      x_turn = int(x_turn)
-      if x_turn in tiles:
-        if isinstance(tiles[x_turn], int):
-          global turn_count
-          turn_count = turn_count+1
-          tiles[x_turn -1] = "X"
-          if turn_count < 9:
-            Turn_O()
-        else:
-          print("Not an option")
-          Turn_X()
+        if boardSet[0] and boardSet[1] and boardSet[2] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        if boardSet[3] and boardSet[4] and boardSet[5] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        if boardSet[6] and boardSet[7] and boardSet[8] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        if boardSet[0] and boardSet[3] and boardSet[6] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        if boardSet[1] and boardSet[4] and boardSet[7] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        if boardSet[2] and boardSet[5] and boardSet[8] == player[i]:
+          sys.exit(player[i] + "wins!")
+          
+        if boardSet[0] and boardSet[4] and boardSet[8] == player[i]:
+          sys.exit(player[i] + "wins!")
+          
+        if boardSet[2] and boardSet[4] and boardSet[6] == player[i]:
+          sys.exit(player[i] + "wins!")
+
+        print("\n")
+        break
       else:
-        print("Not an option")
-        Turn_X()
-    else:
-      print("Not an option")
-      Turn_X()
+        print("That spot is not available, pick again.\n")
 
-  def Turn_O():
-    board()
-    o_turn = input("O take your turn: ")
-    if o_turn in tiles_str:
-      o_turn = int(o_turn)
-      if o_turn in tiles:
-        if isinstance(tiles[o_turn], int):
-          global turn_count
-          turn_count = turn_count+1
-          tiles[o_turn -1] = "O"
-          print(turn_count)
-          Turn_X()
-        else:
-          print("Not an option")
-          Turn_O()
-      else:
-        print("Not an option")
-        Turn_O()
-    else:
-      print("Not an option")
-      Turn_O()
-  if turn_count >= 9:
-    board()
-    print("\nDraw")
-    break
-    
-  #if tiles[0] == "X" and tiles[1] == "x" and tiles[2] =="X":
-  #  print("X wins")
-  #  break
-  
-  Turn_X()
-  
+
+turn(boardSet)
