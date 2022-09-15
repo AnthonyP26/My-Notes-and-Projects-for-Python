@@ -24,35 +24,35 @@ def turn(boardSet):
 
         if boardSet[0] == boardSet[1] == boardSet[2]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
         if boardSet[3] == boardSet[4] == boardSet[5]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
         if boardSet[6] == boardSet[7] == boardSet[8]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
         if boardSet[0] == boardSet[3] == boardSet[6]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
         if boardSet[1] == boardSet[4] == boardSet[7]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
         if boardSet[2] == boardSet[5] == boardSet[8]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
           
         if boardSet[0] == boardSet[4] == boardSet[8]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
           
         if boardSet[2] == boardSet[4] == boardSet[6]:
           board(boardSet)
-          sys.exit(player[i] + "wins!")
+          sys.exit(player[i] + " wins!")
 
           
 
